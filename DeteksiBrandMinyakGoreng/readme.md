@@ -5,11 +5,11 @@ Link Full Source Code Project (ZIP) berukuran 3.30GB di GDrive : https://drive.g
 
 Link File best.pt di Google Drive : https://drive.google.com/drive/folders/1kwQXT6pDLOb7fJ2Hs8Bhs2jRuCJ30Y43?usp=drive_link 
 
-dataset/Deteksi Brand Minyak Goreng.v2i.yolov9/ 
-Folder ini berisi dataset custom yang dibuat dan dilabeli/dianotasikan menggunakan Roboflow.
+dataset/Deteksi Brand Minyak Goreng.v2i.yolov9/  <br>
+Folder ini berisi dataset custom yang dibuat dan dilabeli/dianotasikan menggunakan Roboflow. <br>
 Link Roboflow nya : https://app.roboflow.com/deteksi-minyak-goreng/deteksi-brand-minyak-goreng/models/deteksi-brand-minyak-goreng/2 
 
-================Training Model=====================
+================Training Model===================== <br>
 Framework: YOLOv9 (WongKinYiu)
 Metode: Transfer Learning
 File gelan-c.pt digunakan sebagai pretrained weight untuk transfer learning saat training.
@@ -54,4 +54,5 @@ File train.py, detect.py, dan val.py merupakan script bawaan YOLOv9 (WongKinYiu)
 Proyek ini dijalankan secara lokal
 
 file requirements.txt (bawaan WongKinYiu)
+
 Daftar library Python yang dibutuhkan untuk menjalankan proyek
