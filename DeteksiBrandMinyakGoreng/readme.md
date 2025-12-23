@@ -36,17 +36,17 @@ python detect.py --weights runs/train/exp/weights/best.pt --source data/videos/v
 python detect.py --weights runs/train/exp/weights/best.pt --source 0 --img 640 --conf 0.5 --device 0 --project data/webcam_hasil_deteksi_brand_minyak_goreng
 
 
-==============Aplikasi Web (Streamlit)===============
-Aplikasi Streamlit dibuat untuk menjalankan inference melalui antarmuka web.
+==============Aplikasi Web (Streamlit)=============== <br>
+Aplikasi Streamlit dibuat untuk menjalankan inference melalui antarmuka web. <br>
 Fitur:
 Upload gambar -> deteksi -> tampilkan hasil
 Upload video -> deteksi -> tampilkan hasil video
 Inference dijalankan di server (YOLOv9)
 script : app.py 
 
-================Catatan==========================
-Folder docs/
-Berisi catatan command yang dijalankan di terminal, sebagai bukti proses:
+================Catatan========================== <br>
+Folder docs/ <br>
+Berisi catatan command yang dijalankan di terminal, sebagai bukti proses: 
 - Training
 - Testing / inference
 
@@ -56,4 +56,5 @@ Proyek ini dijalankan secara lokal
 file requirements.txt (bawaan WongKinYiu)
 
 Daftar library Python yang dibutuhkan untuk menjalankan proyek
+
 
