@@ -1,0 +1,18 @@
+Nama : Maulida Aprillia Cinta Ariyatin
+NIM : 24060122120029
+
+Deteksi Objek dengan model custom yang sudah dilatih 
+
+Memakai model custom yang sudah dilatih untuk mendeteksi objek
+
+Command Deteksi :
+
+1. Deteksi dengan Gambar :
+python detect.py --weights runs/train/exp/weights/best.pt --source data/images/minyakbimo.jpeg --img 640 --conf 0.5 --device 0 --project data/image_hasil_deteksi_brand_minyak_goreng
+
+2. Deteksi dengan video :
+python detect.py --weights runs/train/exp/weights/best.pt --source data/videos/video6185831720420384357.mp4 --img 640 --conf 0.5 --device 0 --project data/video_hasil_deteksi_brand_minyak_goreng
+
+3. Deteksi Webcam :
+python detect.py --weights runs/train/exp/weights/best.pt --source 0 --img 640 --conf 0.5 --device 0 --project data/webcam_hasil_deteksi_brand_minyak_goreng
+

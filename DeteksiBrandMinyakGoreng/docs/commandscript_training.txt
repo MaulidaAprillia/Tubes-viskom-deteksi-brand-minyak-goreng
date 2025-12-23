@@ -1,0 +1,28 @@
+Nama : Maulida Aprillia Cinta Ariyatin
+NIM : 24060122120029
+
+
+Sebelum Training:
+cek driver nvdia dulu karena mau pake gpu :
+ nvidia-smi
+
+Training : 
+
+Menggunakan pendekatan transfer learning. Model awal menggunakan 
+bobot/weight pretrained gelan-c.pt yang kemudian dilatih ulang dengan
+dataset custom deteksi brand minyak goreng. 
+
+Command Training :
+
+ python train.py --batch 8 --epochs 30 --img 640 --device 0 --data "../dataset/Deteksi Brand Minyak Goreng.v2i.yolov9/data.yaml" --weights ../weights/gelan-c.pt --cfg models/detect/gelan-c.yaml --hyp hyp.scratch-high.yaml
+
+sudah ada proses validasi otomatis saat proses training ini, 
+Hasil validasi ditunjukkan melalui nilai precision, recall, mAP, 
+serta visualisasi pada file results.png dan confusion_matrix.png.
+
+
+tapi bisa juga melakukan proses validasi lagi secara eksplisit dengan command ini :
+
+ python val.py --img 640 --batch 8 --conf 0.001 --iou 0.7 --device 0 --data "../dataset/Deteksi Brand Minyak Goreng.v2i.yolov9/data.yaml" --weights runs/train/exp/weights/best.pt
+
+
