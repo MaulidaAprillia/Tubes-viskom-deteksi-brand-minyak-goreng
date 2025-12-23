@@ -5,8 +5,7 @@ Link Full Source Code Project (ZIP) berukuran 3.30GB di GDrive : https://drive.g
 
 Link File best.pt di Google Drive : https://drive.google.com/drive/folders/1kwQXT6pDLOb7fJ2Hs8Bhs2jRuCJ30Y43?usp=drive_link 
 
-dataset/Deteksi Brand Minyak Goreng.v2i.yolov9/  <br>
-Folder ini berisi dataset custom yang dibuat dan dilabeli/dianotasikan menggunakan Roboflow. <br>
+Dataset custom yang dibuat dan dilabeli/dianotasikan menggunakan Roboflow. <br>
 Link Roboflow nya : https://app.roboflow.com/deteksi-minyak-goreng/deteksi-brand-minyak-goreng/models/deteksi-brand-minyak-goreng/2 
 
 ================Training Model===================== <br>
