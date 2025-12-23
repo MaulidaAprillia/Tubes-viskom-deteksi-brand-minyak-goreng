@@ -10,19 +10,19 @@ Folder ini berisi dataset custom yang dibuat dan dilabeli/dianotasikan menggunak
 Link Roboflow nya : https://app.roboflow.com/deteksi-minyak-goreng/deteksi-brand-minyak-goreng/models/deteksi-brand-minyak-goreng/2 
 
 ================Training Model===================== <br>
-Framework: YOLOv9 (WongKinYiu)
-Metode: Transfer Learning
-File gelan-c.pt digunakan sebagai pretrained weight untuk transfer learning saat training.
-Output model: best.pt
-Contoh perintah training di jalankan di terminal vscode (dicatat di folder docs/):
+Framework: YOLOv9 (WongKinYiu) <br>
+Metode: Transfer Learning <br>
+File gelan-c.pt digunakan sebagai pretrained weight untuk transfer learning saat training. <br>
+Output model: best.pt <br>
+Contoh perintah training di jalankan di terminal vscode (dicatat di folder docs/): <br>
     python train.py --img 640 --batch 8 --epochs 30 --device 0 --data data.yaml --weights gelan-c.pt
 
-==============Implementasi Deteksi Objek=============
-Model hasil training (best.pt) dapat digunakan untuk:
-Deteksi gambar
-Deteksi video
-Deteksi Webcam
-Script utama:
+==============Implementasi Deteksi Objek============= <br>
+Model hasil training (best.pt) dapat digunakan untuk:<br>
+Deteksi gambar <br>
+Deteksi video <br>
+Deteksi Webcam <br>
+Script utama: 
 train.py -> training model (bawaan YOLOv9 Wongkinyiu)
 detect.py -> inference/deteksi (bawaan YOLOv9 Wongkinyiu)
 Contoh perintah deteksi di jalankan di terminal vscode (dicatat di folder docs/):
@@ -56,3 +56,4 @@ Proyek ini dijalankan secara lokal
 file requirements.txt (bawaan WongKinYiu)
 
 Daftar library Python yang dibutuhkan untuk menjalankan proyek
+
