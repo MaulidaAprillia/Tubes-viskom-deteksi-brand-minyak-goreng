@@ -38,10 +38,10 @@ python detect.py --weights runs/train/exp/weights/best.pt --source 0 --img 640 -
 
 ==============Aplikasi Web (Streamlit)=============== <br>
 Aplikasi Streamlit dibuat untuk menjalankan inference melalui antarmuka web. <br>
-Fitur:
-Upload gambar -> deteksi -> tampilkan hasil
-Upload video -> deteksi -> tampilkan hasil video
-Inference dijalankan di server (YOLOv9)
+Fitur: <br>
+Upload gambar -> deteksi -> tampilkan hasil <br>
+Upload video -> deteksi -> tampilkan hasil video <br>
+Inference dijalankan di server (YOLOv9) <br>
 script : app.py 
 
 ================Catatan========================== <br>
@@ -56,5 +56,6 @@ Proyek ini dijalankan secara lokal
 file requirements.txt (bawaan WongKinYiu)
 
 Daftar library Python yang dibutuhkan untuk menjalankan proyek
+
 
 
