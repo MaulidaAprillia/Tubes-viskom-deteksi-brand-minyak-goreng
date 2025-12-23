@@ -21,9 +21,9 @@ Model hasil training (best.pt) dapat digunakan untuk:<br>
 Deteksi gambar <br>
 Deteksi video <br>
 Deteksi Webcam <br>
-Script utama: 
-train.py -> training model (bawaan YOLOv9 Wongkinyiu)
-detect.py -> inference/deteksi (bawaan YOLOv9 Wongkinyiu)
+Script utama: <br>
+train.py -> training model (bawaan YOLOv9 Wongkinyiu) <br>
+detect.py -> inference/deteksi (bawaan YOLOv9 Wongkinyiu) <br>
 Contoh perintah deteksi di jalankan di terminal vscode (dicatat di folder docs/):
 1. Deteksi dengan Gambar :
 python detect.py --weights runs/train/exp/weights/best.pt --source data/images/minyakbimo.jpeg --img 640 --conf 0.5 --device 0 --project data/image_hasil_deteksi_brand_minyak_goreng
@@ -55,6 +55,7 @@ Proyek ini dijalankan secara lokal
 file requirements.txt (bawaan WongKinYiu)
 
 Daftar library Python yang dibutuhkan untuk menjalankan proyek
+
 
 
 
