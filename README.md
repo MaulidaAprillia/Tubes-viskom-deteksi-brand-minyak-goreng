@@ -14,7 +14,7 @@ Metode: Transfer Learning <br>
 File gelan-c.pt digunakan sebagai pretrained weight untuk transfer learning saat training. <br>
 Output model: best.pt <br>
 Contoh perintah training di jalankan di terminal vscode (dicatat di folder docs/): <br>
-    python train.py --img 640 --batch 8 --epochs 30 --device 0 --data data.yaml --weights gelan-c.pt
+    python train.py --batch 8 --epochs 30 --img 640 --device 0 --data "../dataset/Deteksi Brand Minyak Goreng.v2i.yolov9/data.yaml" --weights ../weights/gelan-c.pt --cfg models/detect/gelan-c.yaml --hyp hyp.scratch-high.yaml
 
 ==============Implementasi Deteksi Objek============= <br>
 Model hasil training (best.pt) dapat digunakan untuk:<br>
